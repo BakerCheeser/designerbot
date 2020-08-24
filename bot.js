@@ -1845,4 +1845,6 @@ Structures.extend("GuildEmoji", (GuildEmoji) => class extends GuildEmoji {
 // Start Bot
 //---------------------------------------------------------------------
 
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+
 Files.startBot();
