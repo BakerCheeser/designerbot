@@ -10,5 +10,18 @@
     "jimp": "latest",
     "node-cron": "^2.0.3"
     "node.js": "14.8.0"
-   }
+   },
+    "scripts": {
+
+    "start": "node bot.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
+  }
 }
